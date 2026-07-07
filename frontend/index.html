@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneWorld Technologies | AI Assistant</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="brand">
+                <i class="fa-solid fa-globe brand-icon"></i>
+                <span class="brand-text">OneWorld Tech</span>
+            </div>
+            <div class="sidebar-menu">
+                <div class="menu-item active">
+                    <i class="fa-solid fa-message"></i> Chat Assistant
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-area">
+            <header class="chat-header">
+                <div>
+                    <h2>AI Assistant</h2>
+                    <p class="status"><span class="dot"></span> Online & Ready</p>
+                </div>
+            </header>
+
+            <div class="chat-container" id="chat-container">
+                <!-- Welcome Message -->
+                <div class="message system-message">
+                    <div class="avatar system-avatar">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <p>Hello! I am the OneWorld Technologies AI Assistant. I can help answer questions about our
+                            company, services, and projects. How can I assist you today?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <form id="chat-form">
+                    <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off">
+                    <button type="submit" id="send-btn">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <script src="/assets/script.js"></script>
+</body>
+
+</html>
